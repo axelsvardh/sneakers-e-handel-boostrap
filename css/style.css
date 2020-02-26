@@ -1,33 +1,122 @@
-body:hover {
-  background: url(../img/12_col.gif) center top repeat-y;
-  background-size: 90%;
+body {
+  background-color: #fff;
+}
+#product-page {
+  background-color: #eee;
+}
+.slide-items {
+	display: flex;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	padding-left: 10px;
+}
+
+.slide-items a {
+	margin-right: 6px;
+}
+
+::-webkit-scrollbar {
+	width: 0px;
+	background: transparent;
+}
+
+.product-background-slider {
+	background-color: #EEE;
+	padding: 20% 3% 15% 3%;
+  margin-right: 8px;
+  width: 100%;
+  list-style: none;
+}
+
+.product-background-slider h6 h5 {
+	background-color: #EEE;
+	padding-left: 10px;
+}
+
+.product-background-slider h6 h5, a{
+	color: #000;
+	text-decoration: none;
+}
+
+.product-background-slider img {
+	margin-bottom: 30px;
+	width: 150px;
+	height: 80px;
 }
 
 .container {
-  margin: 20px auto;
+  margin: 0 auto;
   width: 90%;
 }
 
+.hero-pic {
+  width: 100%;
+}
+
+.post-1 {
+  width: 100%;
+}
+
+.post-2 {
+  width: 100%;
+}
+
+.navbar-brand img {
+  position: fixed;
+  width: 80px;
+  height: auto;
+  z-index: 101;
+  top: 10px;
+}
+
+.product-filter h1 {
+  display: inline-block;
+}
+
+.dropdown {
+  margin-top: 50px;
+  display: inline-block;
+}
+
+/* .menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 100;
+  background-color: #fff;
+}
+
+.menu ul {
+  list-style: none;
+  text-align: center;
+}
+
+.menu li {
+  padding: 10px;
+  display: inline-block;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.menu a:hover {
+  border-bottom: 1px solid #000;
+} */
+
 [class*=col-] {
-  margin: 0 10px 20px 10px;
-  min-height: 200px;
-  float: left;
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-.row:before,
-.row:after {
-  content: "";
-  display: table;
-}
-
-.row:after {
-  clear: both;
+  margin: 10px 0;
+  /* background-color: rgba(0, 0, 0, 0.3); */
 }
 
 @media screen and (max-width: 767px) {
   [class*=col-] {
-    margin: 0 0px 20px 0px;
+    margin: 0 0 20px 0;
     width: 100%;
   }
 }
@@ -82,10 +171,6 @@ body:hover {
 
   .container {
     width: 768px;
-  }
-
-  body:hover {
-    background-size: 768px;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -197,10 +282,5 @@ body:hover {
   .container {
     width: 1200px;
   }
-
-  body:hover {
-    background-size: 1200px;
-  }
 }
-
 /*# sourceMappingURL=style.css.map */
