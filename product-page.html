@@ -1,23 +1,226 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Sneakers</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
-	<main class="container">
-		<header class="col-sm-12 col-md-12 col-lg-12">Header</header>
-		<div class="row">
-			<section class="col-sm-12 col-md-12 col-lg-12">Product filter</section>
-		</div>
-		<div class="row">
-			<section class="col-sm-12 col-md-12 col-lg-12">Content</section>
-			<section class="col-sm-12 col-md-12 col-lg-12">Content</section>
-			<section class="col-sm-12 col-md-12 col-lg-12">Content</section>
-		</div>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<footer class="col-sm-12 col-md-12 col-lg-12">Footer</footer>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body id="product-page">
+	<main class="container">
+		<header class="col-sm-12 col-md-12 col-lg-12">
+			<div class="navbar-brand">
+				<img src="bilder/co-lab-logo-done.png" alt="">
+			</div>
+			<nav class="navbar">
+				<ul>
+					<li><a href="#">home</a></li>
+					<li><a href="#">products</a></li>
+					<li><a href="#">contact</a></li>
+					<li><a href="#">about</a></li>
+				</ul>
+			</nav>
+		</header>
+		<header class="col-sm-12 col-md-12 col-lg-12 product-filter">
+			<h1>Sneakers</h1>
+			<div class="dropdown">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Filter by:
+				</button>
+				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<a class="dropdown-item" href="#">x Kaws</a>
+				<a class="dropdown-item" href="#">x Jordan</a>
+				<a class="dropdown-item" href="#">x Vans</a>
+				<a class="dropdown-item" href="#">x Nike</a>
+				<a class="dropdown-item" href="#">x Travis Scott</a>
+				<a class="dropdown-item" href="#">x Strangelove</a>
+				<a class="dropdown-item" href="#">x Yeezy</a>
+				<a class="dropdown-item" href="#">x Luois Vuitton</a>
+				<a class="dropdown-item" href="#">x Kanye West</a>
+				<a class="dropdown-item" href="#">x Off-White</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Sort by:
+				</button>
+				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<a class="dropdown-item" href="#">Featured</a>
+				<a class="dropdown-item" href="#">Best Selling</a>
+				<a class="dropdown-item" href="#">Alphabetically, A-Z</a>
+				<a class="dropdown-item" href="#">Alphabetically, Z-A</a>
+				<a class="dropdown-item" href="#">Price, low to high</a>
+				<a class="dropdown-item" href="#">Price, high to low</a>
+				<a class="dropdown-item" href="#">Date, new to old</a>
+				<a class="dropdown-item" href="#">Date, old to new</a>
+				</div>
+			</div>
+		</header>
+		<div class="row">
+			<div class="col-sm-12 col-md-3 col-lg-3">
+				<div class="card">
+					<img src="bilder/bapesta.jpg" alt="" class="card-img">
+					<div class="card-body">
+						<h5 class="card-title">Bapesta</h5>
+						<p class="card-text">$2000</p>
+						<a href="#" class="btn btn-primary">Show</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-3 col-lg-3">
+				<div class="card">
+					<img src="bilder/dior-jordan.jpg" alt="" class="card-img">
+					<div class="card-body">
+						<h5 class="card-title">Special title treatment</h5>
+						<p class="card-text">$999</p>
+						<a href="#" class="btn btn-primary">Show</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-3 col-lg-3">
+				<div class="card">
+					<img src="bilder/kaws-jordan.jpg" alt="" class="card-img">
+					<div class="card-body">
+						<h5 class="card-title">Special title treatment</h5>
+						<p class="card-text">$999</p>
+						<a href="#" class="btn btn-primary">Show</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-3 col-lg-3">
+				<div class="card">
+					<img src="bilder/kaws-vans.jpg" alt="" class="card-img">
+					<div class="card-body">
+						<h5 class="card-title">Special title treatment</h5>
+						<p class="card-text">$999</p>
+						<a href="#" class="btn btn-primary">Show</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 col-md-3 col-lg-3">
+				<div class="card">
+					<img src="bilder/offwhite-air-white.jpg" alt="" class="card-img">
+					<div class="card-body">
+						<h5 class="card-title">Special title treatment</h5>
+						<p class="card-text">$999</p>
+						<a href="#" class="btn btn-primary">Show</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-3 col-lg-3">
+				<div class="card">
+					<img src="bilder/offwhite-air1.jpg" style="height: 168px;" alt="" class="card-img">
+					<div class="card-body">
+						<h5 class="card-title">Special title treatment</h5>
+						<p class="card-text">$999</p>
+						<a href="#" class="btn btn-primary">Show</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-3 col-lg-3">
+				<div class="card">
+					<img src="bilder/offwhite-jordan.jpg" alt="" class="card-img">
+					<div class="card-body">
+						<h5 class="card-title">Special title treatment</h5>
+						<p class="card-text">$999</p>
+						<a href="#" class="btn btn-primary">Show</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-3 col-lg-3">
+				<div class="card">
+					<img src="bilder/strangelove-nike.jpg" alt="" class="card-img">
+					<div class="card-body">
+						<h5 class="card-title">Special title treatment</h5>
+						<p class="card-text">$999</p>
+						<a href="#" class="btn btn-primary">Show</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 col-md-3 col-lg-3">
+				<div class="card">
+					<img src="bilder/travis-nike.jpg" alt="" class="card-img">
+					<div class="card-body">
+						<h5 class="card-title">Special title treatment</h5>
+						<p class="card-text">$999</p>
+						<a href="#" class="btn btn-primary">Show</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-3 col-lg-3">
+				<div class="card">
+					<img src="bilder/west-louis.jpg" alt="" class="card-img">
+					<div class="card-body">
+						<h5 class="card-title">Special title treatment</h5>
+						<p class="card-text">$999</p>
+						<a href="#" class="btn btn-primary">Show</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-3 col-lg-3">
+				<div class="card">
+					<img src="bilder/yeezy-nike.jpg" alt="" class="card-img">
+					<div class="card-body">
+						<h5 class="card-title">Special title treatment</h5>
+						<p class="card-text">$999</p>
+						<a href="#" class="btn btn-primary">Show</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-3 col-lg-3">
+				<div class="card">
+					<img src="bilder/bapesta.jpg" alt="" class="card-img">
+					<div class="card-body">
+						<h5 class="card-title">Special title treatment</h5>
+						<p class="card-text">$999</p>
+						<a href="#" class="btn btn-primary">Show</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="col-sm-12 col-md-12 col-lg-12">
+			<div class="row">
+				<section class="col-sm-12 col-md-3 col-lg-3" style="border-right: 1px solid #000;">
+					<h3>About us</h3>
+					<h6><a href="#">Company</a></h6>
+					<h6><a href="#">Privacy policy</a></h6>
+					<h6><a href="#">Careers</a></h6></section>
+				<section class="col-sm-12 col-md-3 col-lg-3" style="border-right: 1px solid #000;">
+					<h3>Contact</h3>
+					<h6>Tel:<a href="tel:12345678910"> 123 456 78 90</a></h6>
+					<h6>Mail:<a href="mailto:someone@example.com"> collab@gmail.com</a></h6>
+				</section>
+				<section class="col-sm-12 col-md-3 col-lg-3" style="border-right: 1px solid #000;">
+					<h3>Help</h3>
+					<h6><a href="#">FaQ</a></h6>
+					<h6><a href="#">Info</a></h6>
+					<h6><a href="#">Need help?</a></h6>
+				</section>
+				<section class="col-sm-12 col-md-3 col-lg-3">
+					<a class="btn btn-social-icon btn-facebook">
+						<span class="fa fa-facebook"></span>
+					</a>
+					<a class="btn btn-social-icon btn-instagram">
+						<span class="fa fa-instagram"></span>
+					</a>
+				</section>
+			</div>
+		</footer>
 	</main>
-</body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>
