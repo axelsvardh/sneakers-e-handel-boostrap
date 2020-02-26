@@ -4,6 +4,12 @@ body {
 #product-page {
   background-color: #eee;
 }
+
+.container {
+  margin: 30px auto;
+  width: 90%;
+}
+
 .slide-items {
 	display: flex;
 	overflow-y: hidden;
@@ -44,11 +50,6 @@ body {
 	height: 80px;
 }
 
-.container {
-  margin: 0 auto;
-  width: 90%;
-}
-
 .hero-pic {
   width: 100%;
 }
@@ -59,14 +60,6 @@ body {
 
 .post-2 {
   width: 100%;
-}
-
-.navbar-brand img {
-  position: fixed;
-  width: 80px;
-  height: auto;
-  z-index: 101;
-  top: 10px;
 }
 
 .product-filter h1 {
