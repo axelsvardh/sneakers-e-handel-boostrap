@@ -75,6 +75,10 @@ body {
   width: 100%;
 }
 
+.dropdown-menu {
+  padding: 20px;
+}
+
 /* .menu {
   position: fixed;
   top: 0;
