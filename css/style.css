@@ -71,6 +71,10 @@ body {
   display: inline-block;
 }
 
+.dropdown img {
+  width: 100%;
+}
+
 /* .menu {
   position: fixed;
   top: 0;
